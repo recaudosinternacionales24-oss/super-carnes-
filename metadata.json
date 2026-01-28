@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Super Carnes POS",
+  "description": "Sistema de Punto de Venta (POS) y facturación especializado para la distribuidora de alimentos Super Carnes, con soporte para pesos colombianos (COP), gestión de inventario y análisis de ventas con IA.",
+  "requestFramePermissions": []
+}
