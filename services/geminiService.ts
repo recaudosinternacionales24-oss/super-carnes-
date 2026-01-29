@@ -3,7 +3,7 @@ import { GoogleGenAI } from "@google/genai";
 import { Product, Sale } from "../types";
 
 // Always use the API key directly from process.env.API_KEY without fallbacks
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY });
 
 export const getInventoryAdvice = async (products: Product[], sales: Sale[]) => {
   try {
